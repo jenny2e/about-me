@@ -118,7 +118,7 @@
 
 ### 내용  
 - CodeBERT 기반의 스마트컨트랙트 자동 분류 모델 구현
-- 이더스캔(Etherscan)에서 verified contract를 대상으로 주소 크롤링 → Solidity 소스 수집 → 메타데이터 생성 과정을 자동화
+- 이더스캔(Etherscan)에서 verified contract를 대상으로 주소 크롤링 → opcode 수집 → 메타데이터 생성 과정을 자동화
 - 이후 라벨링(ERC20 / ERC721), 전처리(주석 제거와 토큰 정규화), 슬라이딩 윈도우 토큰화 과정을 설계하여 학습용 데이터셋 구성
 - 데이터 파이프라인은 **데이터 크롤링 → 전처리 → 토큰화 → 윈도우 생성 → 모델 학습** 순서로 구축하여 전체 흐름을 자동화
 - 실험 결과 약 98%의 정확도 달성
@@ -191,10 +191,10 @@ trainer.train()
 # 자격증
 <table>
   <tr style="font-weight:bold; text-align:center;">
-    <td>자격증명</td>
-    <td>발급기관</td>
-    <td>취득연도</td>
-    <td>세부 내용</td>
+    <td><b>자격증명</b></td>
+    <td><b>발급기관</b></td>
+    <td><b>취득연도</b></td>
+    <td><b>세부 내용</b></td>
   </tr>
   <tr style="font-weight:bold; text-align:center;">
     <td><b>SQLD (SQL 개발자)</b></td>
