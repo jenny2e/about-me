@@ -3,7 +3,7 @@ A personal introduction about my background, skills, and passion for software de
 
 <br>
 
-## 📌기본 정보
+# 기본 정보
 ### 이름       
 &nbsp;&nbsp;박주영    
 ### 학교/전공       
@@ -17,7 +17,7 @@ A personal introduction about my background, skills, and passion for software de
 
 <br>
 
-## 🛠️기술 스택
+# 기술 스택
 >  AI와 모델 실험에 꾸준히 관심을 가지고 공부하고 있어, 자연스럽게 Python 중심의 언어와 딥러닝 관련 개발 도구들을 많이 사용하고 있습니다.
 > <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white"> <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
 
@@ -49,8 +49,8 @@ A personal introduction about my background, skills, and passion for software de
 
 <br>
 
-## 🌟 프로젝트 및 대외활동 
-### <1> 네이버 부스트캠프 AI 스터디 수료(2024)
+# 프로젝트 및 대외활동 
+## <1> 네이버 부스트캠프 AI 스터디 수료(2024)
 
 <img src="https://img.shields.io/badge/Boostcourse-00C7B7?style=for-the-badge&logo=naver&logoColor=white">    
 
@@ -71,7 +71,7 @@ A personal introduction about my background, skills, and passion for software de
 
 ---
 
-### <2> 팀 프로젝트 (DKU-group3)
+## <2> 팀 프로젝트 (DKU-group3)
 
 <img src="https://img.shields.io/badge/Frontend-61DAFB?style=flat&logo=javascript&logoColor=black">  
 
@@ -89,7 +89,7 @@ A personal introduction about my background, skills, and passion for software de
 
 ---
 
-### <3> 학부 연구/논문 작성
+## <3> 학부 연구/논문 작성
 > 현재 본 연구를 기반으로 2025.11.14~2025.11.15에 열리는 **한국스마트미디어학회 추계학술대회**에 참가하여 포스터 발표 예정입니다.
 
 <img src="https://img.shields.io/badge/Explainable%20AI-XAI-4B8BBE?style=for-the-badge&logo=ai&logoColor=white">
@@ -98,12 +98,79 @@ A personal introduction about my background, skills, and passion for software de
 *2025.09~2025.10*
 
 ### 연구 개요  
-단국대학교 SW융합대학 학부 연구생으로 참여하여,  
-**신경망에서 역전파 기반 입력 기여도(backprop-based contribution)**가  
-**순전파 기반 NNexplainer 기여도(forward decomposition)**와  
-정량적으로 동일한 정보를 제공하는지를 검증하는 연구를 수행
+- 단국대학교 SW융합대학 학부 연구생으로 참여하여, **신경망에서 역전파 기반 입력 기여도**가 **순전파 기반 NNexplainer 기여도**와 정량적으로 동일한 정보를 제공함을 검증
+- 입력 변수별 기여도에 gradient × input 방식을 적용
 
 ### 논문 
+&nbsp;&nbsp; *Validating Input Contribution Estimation through Output Backpropagation in Artificial Neural Networks*
 &nbsp;&nbsp; 
 
+---
 
+## <4> Solidity 스마트컨트랙트 분류 모델 개발
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white">
+
+### 기간     
+*2025.10~2025.11*
+
+### 내용  
+- CodeBERT 기반 ERC-20/721 자동 분류 모델 구현  
+- 데이터 크롤링 → 전처리 → 토큰화 → 슬라이딩 윈도우 → 모델 학습 순서로 개발 
+- 모델 정확도 약 98%  
+- 모델 학습, 검증 및 시각화는 JupyterLab 환경에서 수행하여 실험 반복과 디버깅 효율을 높이기
+
+### 핵심 코드 snippet
+<details>
+  <summary>코드 보기</summary>
+
+  
+```python
+from transformers import (
+    AutoTokenizer, AutoModelForSequenceClassification,
+    Trainer, TrainingArguments, EarlyStoppingCallback
+)
+
+# Load tokenizer & model
+MODEL_NAME = "microsoft/codebert-base"
+tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+model = AutoModelForSequenceClassification.from_pretrained(
+    MODEL_NAME, num_labels=2
+)
+
+# Tokenization
+def tok_fn(batch):
+    return tokenizer(batch["text"], truncation=True, max_length=512)
+
+ds_tok = dataset.map(tok_fn, batched=True, remove_columns=["text", "group"])
+
+# Trainer 설정
+training_args = TrainingArguments(
+    output_dir="./results_codebert_bytecode",
+    learning_rate=2e-5,
+    num_train_epochs=10,
+    per_device_train_batch_size=8,
+    evaluation_strategy="steps",
+    logging_steps=50,
+    load_best_model_at_end=True,
+    metric_for_best_model="eval_accuracy",
+)
+
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=ds_tok["train"],
+    eval_dataset=ds_tok["test"],
+    compute_metrics=lambda p: {
+        "accuracy": (p.predictions.argmax(1) == p.label_ids).mean()
+    },
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=5)],
+)
+
+trainer.train()
+```
+
+###결과
+<details>
+  <summary>이미지 보기</summary>
+  
