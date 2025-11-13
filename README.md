@@ -1,4 +1,4 @@
-# about-me
+[수료증.pdf](https://github.com/user-attachments/files/23521715/default.pdf)# about-me
 A personal introduction about my background, skills, and passion for software development
 
 <br>
@@ -46,3 +46,21 @@ A personal introduction about my background, skills, and passion for software de
 - **TensorFlow**
 - **PyTorch**   
 - **Hugging Face Transformers** - NLP / CodeBERT / 트랜스포머 모델 실습  
+
+<br>
+
+## 프로젝트 및 대외활동 
+### 네이버 부스트캠프 AI 스터디 수료(2024)
+<img src="https://img.shields.io/badge/Boostcourse-00C7B7?style=for-the-badge&logo=naver&logoColor=white">
+
+- 2024.05.20 ~ 2024.06.16   
+- Python 기반 AI 기초 및 실습 진행
+- 네이버 커넥트재단 인증 수료증 보유  
+- 스터디 기록(노션):  
+  https://www.notion.so/b43c08a6a128463bb75b7cf411cdfea0  
+
+#### 수료증 (Certificate)
+
+
+---
+
