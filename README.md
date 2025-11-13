@@ -97,13 +97,13 @@ A personal introduction about my background, skills, and passion for software de
 ### 기간     
 *2025.09~2025.10*
 
-### 연구 개요  
+### 내용  
 - 단국대학교 SW융합대학 학부 연구생으로 참여하여, **신경망에서 역전파 기반 입력 기여도**가 **순전파 기반 NNexplainer 기여도**와 정량적으로 동일한 정보를 제공함을 검증
 - 입력 변수별 기여도에 gradient × input 방식을 적용
-
+- 논문 제목 -*Validating Input Contribution Estimation through Output Backpropagation in Artificial Neural Networks*
+   
 ### 논문 
-&nbsp;&nbsp; *Validating Input Contribution Estimation through Output Backpropagation in Artificial Neural Networks*
-&nbsp;&nbsp; 
+&nbsp;&nbsp; https://github.com/user-attachments/files/23524723/2025._.pdf
 
 ---
 
@@ -169,8 +169,43 @@ trainer = Trainer(
 
 trainer.train()
 ```
+</details>
 
-###결과
+### 결과
 <details>
   <summary>이미지 보기</summary>
-  
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/4af69db0-91be-452f-b79a-8d1a1f714773" 
+         width="70%" alt="모델 결과">
+  </p>
+
+</details>
+
+<br>
+
+
+# 자격증
+<table>
+  <tr>
+    <td>자격증명</td>
+    <td>발급기관</td>
+    <td>취득연도</td>
+    <td>세부 내용</td>
+  </tr>
+  <tr>
+    <td><b>SQLD (SQL 개발자)</b></td>
+    <td>한국데이터산업진흥원</td>
+    <td>2025</td>
+    <td>SQL로 데이터를 정확하게 조회할 수 있는 능력 검증</td>
+  </tr>
+  <tr>
+    <td><b>ADSP (데이터분석 준전문가)</b></td>
+    <td>한국데이터산업진흥원</td>
+    <td>2025</td>
+    <td>통계 및 데이터 분석 기초 능력 검증</td>
+  </tr>
+</table>
+
+<br>
+# 
+
