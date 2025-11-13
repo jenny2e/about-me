@@ -73,6 +73,8 @@ A personal introduction about my background, skills, and passion for software de
 
 ### <2> 팀 프로젝트 (DKU-group3)
 
+<img src="https://img.shields.io/badge/Frontend-61DAFB?style=flat&logo=javascript&logoColor=black">  
+
 ### 기간     
 *2025 1학기*
 
@@ -80,7 +82,28 @@ A personal introduction about my background, skills, and passion for software de
 - HTML / CSS 기반으로 웹 페이지 UI 개발에 참여
 - Figma를 활용하여 UI 구조를 설계    
   https://www.figma.com/design/Np5bW2Oe8VyhQnCLPtGglk/TAGGO-?node-id=0-1&p=f&t=FHujeZZwZyQJP6FN-0
+- Kakao Maps API를 직접 불러와 지도 기반 UI를 구성
 
 ### GITHUB 주소  
 &nbsp;&nbsp; https://github.com/DKU-group3
+
+---
+
+### <3> 학부 연구/논문 작성
+> 현재 본 연구를 기반으로 2025.11.14~2025.11.15에 열리는 **한국스마트미디어학회 추계학술대회**에 참가하여 포스터 발표 예정입니다.
+
+<img src="https://img.shields.io/badge/Explainable%20AI-XAI-4B8BBE?style=for-the-badge&logo=ai&logoColor=white">
+
+### 기간     
+*2025.09~2025.10*
+
+### 연구 개요  
+단국대학교 SW융합대학 학부 연구생으로 참여하여,  
+**신경망에서 역전파 기반 입력 기여도(backprop-based contribution)**가  
+**순전파 기반 NNexplainer 기여도(forward decomposition)**와  
+정량적으로 동일한 정보를 제공하는지를 검증하는 연구를 수행
+
+### 논문 
+&nbsp;&nbsp; 
+
 
