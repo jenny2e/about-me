@@ -31,7 +31,7 @@
 - R - 간단한 데이터 분석
 - C - 운영체제 실습
 - Java 
-- HTML / CSS / JavaScript — 기본적인 웹 프론트엔드 구현 가능
+- HTML / CSS / JavaScript - 기본적인 웹 프론트엔드 구현 가능
 
 ---
 
@@ -179,7 +179,7 @@ trainer.train()
 <details>
   <summary>이미지 보기</summary>
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/4af69db0-91be-452f-b79a-8d1a1f714773" 
+    <img src="https://github.com/user-attachments/assets/b114d627-d2a6-4022-b346-23ab5664701d" 
          width="70%" alt="모델 결과">
   </p>
 
