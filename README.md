@@ -186,7 +186,7 @@ trainer.train()
 
 # 자격증
 <table>
-  <tr>
+  <tr style="font-weight:bold; text-align:center;">
     <td>자격증명</td>
     <td>발급기관</td>
     <td>취득연도</td>
