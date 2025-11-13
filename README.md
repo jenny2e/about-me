@@ -1,9 +1,11 @@
-# about-me
-A personal introduction about my background, skills, and passion for software development
-
 <br>
 
 # 기본 정보
+  <p align="left-align">
+    <img src="https://github.com/user-attachments/assets/0d30c978-c85f-4ed3-b39e-c4042c9108df" 
+         width="15%" alt="사진">
+  </p>
+
 ### 이름       
 &nbsp;&nbsp;박주영    
 ### 학교/전공       
@@ -84,7 +86,7 @@ A personal introduction about my background, skills, and passion for software de
   https://www.figma.com/design/Np5bW2Oe8VyhQnCLPtGglk/TAGGO-?node-id=0-1&p=f&t=FHujeZZwZyQJP6FN-0
 - Kakao Maps API를 직접 불러와 지도 기반 UI를 구성
 
-### GITHUB 주소  
+### Github 주소  
 &nbsp;&nbsp; https://github.com/DKU-group3
 
 ---
@@ -115,10 +117,12 @@ A personal introduction about my background, skills, and passion for software de
 *2025.10~2025.11*
 
 ### 내용  
-- CodeBERT 기반 ERC-20/721 자동 분류 모델 구현  
-- 데이터 크롤링 → 전처리 → 토큰화 → 슬라이딩 윈도우 → 모델 학습 순서로 개발 
-- 모델 정확도 약 98%  
-- 모델 학습, 검증 및 시각화는 JupyterLab 환경에서 수행하여 실험 반복과 디버깅 효율을 높이기
+- CodeBERT 기반의 스마트컨트랙트 자동 분류 모델 구현
+- 이더스캔(Etherscan)에서 verified contract를 대상으로 주소 크롤링 → Solidity 소스 수집 → 메타데이터 생성 과정을 자동화
+- 이후 라벨링(ERC20 / ERC721), 전처리(주석 제거와 토큰 정규화), 슬라이딩 윈도우 토큰화 과정을 설계하여 학습용 데이터셋 구성
+- 데이터 파이프라인은 **데이터 크롤링 → 전처리 → 토큰화 → 윈도우 생성 → 모델 학습** 순서로 구축하여 전체 흐름을 자동화
+- 실험 결과 약 98%의 정확도 달성
+- 모델 학습 및 검증, loss/accuracy 시각화는 JupyterLab 환경에서 수행하여 반복 실험, 하이퍼파라미터 튜닝 효율을 극대화
 
 ### 핵심 코드 snippet
 <details>
@@ -192,13 +196,13 @@ trainer.train()
     <td>취득연도</td>
     <td>세부 내용</td>
   </tr>
-  <tr>
+  <tr style="font-weight:bold; text-align:center;">
     <td><b>SQLD (SQL 개발자)</b></td>
     <td>한국데이터산업진흥원</td>
     <td>2025</td>
     <td>SQL로 데이터를 정확하게 조회할 수 있는 능력 검증</td>
   </tr>
-  <tr>
+  <tr style="font-weight:bold; text-align:center;">
     <td><b>ADSP (데이터분석 준전문가)</b></td>
     <td>한국데이터산업진흥원</td>
     <td>2025</td>
@@ -207,5 +211,12 @@ trainer.train()
 </table>
 
 <br>
-# 
+
+# 간단한 자기소개와 학습목표
+안녕하세요, 단국대학교 소프트웨어학과 박주영입니다.    
+저는 AI 중심의 학습과 연구에 깊은 관심을 가지고 있으며, 학부연구생 활동을 통해 실제 AI 모델 개발과 실험을 경험하면서 이 분야에 대한 꿈을 키워왔습니다.
+앞으로도 꾸준히 배우며 성장해 경쟁력 있는 AI 개발자가 되는 것을 목표로 하고 있습니다.    
+특히 반복적인 복습과 프로젝트 경험을 쌓는 과정을 중요하게 생각하며, 작은 프로젝트라도 끝까지 완성해보는 습관을 기르고 있습니다.    
+무엇을 하든 최선을 다하는 성향 덕분에, 맡은 일은 책임감 있게 끝까지 해내고자 합니다.
+끊임없이 배우고 도전하며, AI 개발자로서 더 나은 역량을 갖춰 나가겠습니다.
 
