@@ -19,9 +19,13 @@ A personal introduction about my background, skills, and passion for software de
 
 ## 🛠️기술 스택
 >  AI와 모델 실험에 꾸준히 관심을 가지고 공부하고 있어, 자연스럽게 Python 중심의 언어와 딥러닝 관련 개발 도구들을 많이 사용하고 있습니다.
+> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white"> <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
+
+
+
 
 ### 프로그래밍 언어
-- **Python** - AI, 머신러닝 공부를 하며 가장 많이 사용하는 주 언어
+- **Python** - AI, 머신러닝 공부를 하며 가장 많이 사용하는 주 언어 
 - R - 간단한 데이터 분석
 - C - 운영체제 실습
 - Java 
