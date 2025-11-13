@@ -20,7 +20,7 @@
 <br>
 
 # 기술 스택
->  AI와 모델 실험에 꾸준히 관심을 가지고 공부하고 있어, 자연스럽게 Python 중심의 언어와 딥러닝 관련 개발 도구들을 많이 사용하고 있습니다.
+>  AI와 모델 실험에 꾸준히 관심을 가지고 공부하고 있어, 자연스럽게 Python 중심의 언어와 딥러닝 관련 개발 도구들을 많이 사용하고 있습니다.    
 > <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"> <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=Jupyter&logoColor=white"> <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
 
 
@@ -118,7 +118,7 @@
 
 ### 내용  
 - CodeBERT 기반의 스마트컨트랙트 자동 분류 모델 구현
-- 이더스캔(Etherscan)에서 verified contract를 대상으로 주소 크롤링 → opcode 수집 → 메타데이터 생성 과정을 자동화
+- 이더스캔(Etherscan)에서 verified contract를 대상으로 주소 크롤링 → solidity file과 opcode 수집 → 메타데이터 생성 과정을 자동화
 - 이후 라벨링(ERC20 / ERC721), 전처리(주석 제거와 토큰 정규화), 슬라이딩 윈도우 토큰화 과정을 설계하여 학습용 데이터셋 구성
 - 데이터 파이프라인은 **데이터 크롤링 → 전처리 → 토큰화 → 윈도우 생성 → 모델 학습** 순서로 구축하여 전체 흐름을 자동화
 - 실험 결과 약 98%의 정확도 달성
