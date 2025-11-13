@@ -1,4 +1,4 @@
-[수료증.pdf](https://github.com/user-attachments/files/23521715/default.pdf)# about-me
+# about-me
 A personal introduction about my background, skills, and passion for software development
 
 <br>
@@ -60,7 +60,7 @@ A personal introduction about my background, skills, and passion for software de
   https://www.notion.so/b43c08a6a128463bb75b7cf411cdfea0  
 
 #### 수료증 (Certificate)
-
+![부스트캠프 수료증]https://github.com/user-attachments/files/23521960/default.pdf
 
 ---
 
