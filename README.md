@@ -49,18 +49,38 @@ A personal introduction about my background, skills, and passion for software de
 
 <br>
 
-## 프로젝트 및 대외활동 
-### 네이버 부스트캠프 AI 스터디 수료(2024)
-<img src="https://img.shields.io/badge/Boostcourse-00C7B7?style=for-the-badge&logo=naver&logoColor=white">
+## 🌟 프로젝트 및 대외활동 
+### <1> 네이버 부스트캠프 AI 스터디 수료(2024)
 
-- 2024.05.20 ~ 2024.06.16   
-- Python 기반 AI 기초 및 실습 진행
-- 네이버 커넥트재단 인증 수료증 보유  
-- 스터디 기록(노션):  
-  https://www.notion.so/b43c08a6a128463bb75b7cf411cdfea0  
+<img src="https://img.shields.io/badge/Boostcourse-00C7B7?style=for-the-badge&logo=naver&logoColor=white">    
 
-#### 수료증 (Certificate)
-![부스트캠프 수료증]https://github.com/user-attachments/files/23521960/default.pdf
+### 기간     
+*2024.05.20 ~ 2024.06.16*
+
+### 내용  
+- Python 기반 AI 기초 및 실습  
+- **데이터 처리 , 인공지능 수학 , 딥러닝 기초 , AI 비즈니스** 를 단계적으로 학습
+- 미션, 실습, 퀴즈를 포함한 주차별 커리큘럼을 꾸준히 참여
+- 팀원들과 함께한 미션 수행
+
+### 스터디 기록  
+&nbsp;&nbsp; https://www.notion.so/b43c08a6a128463bb75b7cf411cdfea0  
+
+### 수료증  
+&nbsp;&nbsp; https://github.com/user-attachments/files/23521960/default.pdf
 
 ---
+
+### <2> 팀 프로젝트 (DKU-group3)
+
+### 기간     
+*2025 1학기*
+
+### 내용  
+- HTML / CSS 기반으로 웹 페이지 UI 개발에 참여
+- Figma를 활용하여 UI 구조를 설계    
+  https://www.figma.com/design/Np5bW2Oe8VyhQnCLPtGglk/TAGGO-?node-id=0-1&p=f&t=FHujeZZwZyQJP6FN-0
+
+### GITHUB 주소  
+&nbsp;&nbsp; https://github.com/DKU-group3
 
